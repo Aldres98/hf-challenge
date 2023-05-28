@@ -1,0 +1,27 @@
+.input-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.json-container {
+  padding-left: 20px;
+}
+
+.explorer-container {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+.json-key {
+  margin: 0 5px;
+}
+
+.json-key-name {
+  color: #646cff;
+  cursor: pointer;
+}
+
+.json-key-name:hover {
+  text-decoration: underline;
+}
