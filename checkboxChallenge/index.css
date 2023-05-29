@@ -1,0 +1,36 @@
+body {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #333;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.custom-checkbox:focus {
+  outline: 1px solid blue;
+}
+
+.focus {
+  outline: 1px solid blue;
+}
+
+.checkmark {
+  color: white;
+}
+
+.custom-checkbox .checkmark {
+  visibility: hidden;
+}
+
+.custom-checkbox.checked {
+  background-color: black;
+  .checkmark {
+    visibility: visible;
+  }
+}

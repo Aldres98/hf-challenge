@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Checkbox</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="nativeCheckbox" class="native-checkbox" />
+    <label for="nativeCheckbox">Native Checkbox</label><br />
+
+    <div
+      class="custom-checkbox"
+      tabindex="0"
+      role="checkbox"
+      aria-checked="false"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+        <rect width="256" height="256" fill="none"></rect>
+        <polyline
+          points="216 72.005 104 184 48 128.005"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="checkmark"
+          stroke-width="16"
+        ></polyline>
+      </svg>
+    </div>
+    <label for="customCheckbox">Custom Checkbox</label><br />
+
+    <script src="index.js"></script>
+  </body>
+</html>
